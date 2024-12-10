@@ -1,0 +1,42 @@
+@font-face {
+    font-family: myFonts;
+    src: url(../title-font.otf);
+}
+
+@font-face {
+    
+    font-family: textFonts;
+    src: url(../myFonts/textFont.otf);
+}
+
+
+h1{
+    font-family: myFonts;
+    text-align: center;
+}
+
+h2{
+    font-family: textFonts;
+    text-align: center;
+}
+
+h3{
+    font-family: monospace;
+    text-align: center;
+}
+
+*{
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    border: 5px solid #000 ;
+
+}
+
